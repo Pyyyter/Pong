@@ -12,13 +12,13 @@ contador2 = 0
 # Definindo a janela_jogo e entrada #
 janela_jogo = Window(1280, 720)
 janela_jogo.set_title("Ponguinho")
-imagem_fundo = GameImage("C:/Users/pyyyt/Documents/Projetos PPlay/Pong/assets/fundo.jpg")
+imagem_fundo = GameImage("assets/fundo.jpg")
 teclado = Window.get_keyboard()
 
 
 
 # Definindo a bola #
-ball = Sprite("C:/Users/pyyyt/Documents/Projetos PPlay/Pong/assets/bola64.png")
+ball = Sprite("assets/bola64.png")
 ball.x = janela_jogo.width/2 - ball.width/2
 ball.y = janela_jogo.height/2 - ball.height/2
 velocidadexdabola = 600
@@ -27,15 +27,14 @@ vely = 200
 
 
 # Definindo paddle 1 #
-pad1 = Sprite("C:/Users/pyyyt/Documents/Projetos PPlay/Pong/assets/cinderace.png")
+pad1 = Sprite("assets/cinderace.png")
 pad1.x = 1180
 pad1.y = janela_jogo.height/2 - pad1.height/2
 velypad1 = 600
 
 
 # Definindo paddle 2 #
-pad2 = Sprite("C:/Users/pyyyt/Documents/Projetos PPlay/Pong/assets/pikachu.png")
-pad2 = Sprite("Pong/assets/pikachu.png")
+pad2 = Sprite("assets/pikachu.png")
 pad2.x = 30
 pad2.y = janela_jogo.height/2 - pad2.height/2
 velypad2 = 600
